@@ -1,0 +1,44 @@
+body {
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+}
+body *{
+    box-sizing:;
+    padding: 0;
+    margin: 0;
+}
+
+header h1{
+    padding-top: 20px;
+    text-align: center;
+    background: #bababa;
+    padding: 0;
+}
+.timer{
+    text-align: center;
+    padding: 10px;
+    font-size: 50px;
+    display: flex;
+    justify-content: center
+}
+.buttons{
+    text-align: center
+}
+.restartCont{
+    display: flex;
+    justify-content: center;
+    margin: 20px;
+}
+footer{
+    background: #8e8e8e;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    display: flex;
+}
+footer p{
+    text-align: center;
+    margin: 10px;
+    width: 100%;
+}
